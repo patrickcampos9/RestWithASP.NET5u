@@ -5,8 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RestWithASP.NET5u.Model.Context;
-using RestWithASP.NET5u.Service;
-using RestWithASP.NET5u.Service.Implementations;
+using RestWithASP.NET5u.Business;
+using RestWithASP.NET5u.Business.Implementations;
+using RestWithASP.NET5u.Repository;
+using RestWithASP.NET5u.Repository.Implementations;
 
 namespace RestWithASP.NET5u
 {
@@ -28,7 +30,12 @@ namespace RestWithASP.NET5u
             var connection = Configuration["MySQLConnection:MySQLConnectionString"];
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
 
-            services.AddScoped<IPersonService, PersonServiceImplementation>();
+            //Versioning API
+            services.AddApiVersioning();
+
+            //Dependency Injection
+            services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
+            services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
 
         }
 
