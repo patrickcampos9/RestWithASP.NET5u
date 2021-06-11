@@ -55,6 +55,8 @@ namespace RestWithASP.NET5u
             //Dependency Injection
             services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
             services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
+            services.AddScoped<IBookBusiness, BookServiceImplementation>();
+            services.AddScoped<IBookRepository, BookRepositoryImplementation>();
 
         }
 
@@ -85,7 +87,7 @@ namespace RestWithASP.NET5u
                 var evolveConnection = new MySql.Data.MySqlClient.MySqlConnection(connection);
                 var evolve = new Evolve.Evolve(evolveConnection, msg => Log.Information(msg))
                 {
-                    Locations = new List<string> { "", "" },
+                    Locations = new List<string> { "db/migrations", "db/dataset" },
                     IsEraseDisabled = true
                 };
                 evolve.Migrate();

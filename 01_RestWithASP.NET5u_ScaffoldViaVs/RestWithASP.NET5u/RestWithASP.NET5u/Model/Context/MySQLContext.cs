@@ -13,7 +13,9 @@ namespace RestWithASP.NET5u.Model.Context
 
 
         public DbSet<Person> Persons { get; set; }
-    
+
+        public DbSet<Book> Books { get; set; }
+
     }
 }
 

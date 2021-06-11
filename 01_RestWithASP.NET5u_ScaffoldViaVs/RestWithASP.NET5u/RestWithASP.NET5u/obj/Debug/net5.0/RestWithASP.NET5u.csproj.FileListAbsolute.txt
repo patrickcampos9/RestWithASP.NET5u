@@ -68,3 +68,15 @@ C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET
 C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\obj\Debug\net5.0\ref\RestWithASP.NET5u.dll
 C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\obj\Debug\net5.0\RestWithASP.NET5u.pdb
 C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\obj\Debug\net5.0\RestWithASP.NET5u.genruntimeconfig.cache
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Evolve.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\projetos\RestWithASP.NET5u\01_RestWithASP.NET5u_ScaffoldViaVs\RestWithASP.NET5u\RestWithASP.NET5u\bin\Debug\net5.0\Serilog.Sinks.File.dll
