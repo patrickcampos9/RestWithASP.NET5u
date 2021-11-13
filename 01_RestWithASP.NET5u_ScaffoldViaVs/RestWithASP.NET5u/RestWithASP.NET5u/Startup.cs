@@ -8,7 +8,7 @@ using RestWithASP.NET5u.Model.Context;
 using RestWithASP.NET5u.Business;
 using RestWithASP.NET5u.Business.Implementations;
 using RestWithASP.NET5u.Repository;
-using RestWithASP.NET5u.Repository.Implementations;
+
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -55,7 +55,7 @@ namespace RestWithASP.NET5u
 
             //Dependency Injection
             services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
-            services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
+            
             services.AddScoped<IBookBusiness, BookBusinessImplementation>();
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
