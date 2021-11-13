@@ -7,11 +7,11 @@ using System.Linq;
 
 namespace RestWithASP.NET5u.Business.Implementations
 {
-    public class BookServiceImplementation : IBookBusiness
+    public class BookBusinessImplementation : IBookBusiness
     {
-        private readonly IBookRepository _repository;
+        private readonly IRepository<Book> _repository;
 
-        public BookServiceImplementation(IBookRepository repository)
+        public BookBusinessImplementation(IRepository<Book> repository)
         {
             _repository = repository;
         }
